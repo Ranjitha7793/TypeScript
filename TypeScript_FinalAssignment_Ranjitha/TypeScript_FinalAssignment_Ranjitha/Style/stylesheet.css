@@ -1,0 +1,25 @@
+#course{
+    text-align: center;
+    display: block;
+}
+#UserRegistration{
+    display:none;
+}
+#login{
+    display:none
+}
+#details{
+    display: none;
+}
+#ApplicationCourses{
+   
+    display:none
+    
+}
+#ApplicationCourses{
+    text-align: center;
+    margin-left: 25px;
+}
+body{
+   background-color: rgb(104, 119, 148);
+}

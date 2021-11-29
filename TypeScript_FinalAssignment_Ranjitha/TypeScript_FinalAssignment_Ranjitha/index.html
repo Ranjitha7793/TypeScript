@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="Style/stylesheet.css">
+    <script src="Script/Registration.js"></script>
+</head>
+<body>
+    <div id="course">
+        <h2>OnlineCourse</h2>
+        <button type="button" onclick="Registration()">UserRegistration</button>
+        <button type="button" onclick="Login()">Login</button>
+    </div>
+   
+        
+    <div id="UserRegistration">
+
+        <h3>Sign Up</h3>
+        <label> Name : </label><br>
+        <input type="text" id="newUserName" >
+        <label id="newUserName"></label><br>
+        <label> Age : </label><br>
+        <input type="number" id="newUserAge" >
+        <label id="newUserAge"></label><br>
+        <label> Mobile Number : </label><br>
+        <input type="number" id="newUserPhoneNumber" ><br>
+        <label id="newUserPhoneNumberMessage"></label><br>
+        
+
+
+        <button onclick="register()">Sign Up</button>
+     
+        
+         
+
+    </div>
+    <div id="login">
+        <h3>Login</h3>
+        <label > UserId</label>
+        <input type="text" id="UserId" ><br><br>
+        <button onclick=" Courses()">ok</button><br><br>
+        
+
+    </div>
+    <div id="details">
+        <button type="button" >AvailableCourses</button><br><br>
+        <button type="button">EnrolledCourses</button><br><br>
+
+    </div>
+    
+    <select name="languages" id="ApplicationCourses"><option value="Courses ">Courses List</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="SQL">SQL</option>
+       
+        
+    </select>
+    <!-- <span id="">
+        <p> availableUser</p>
+    </span> -->
+  
+
+    
+
+</body>
+</html>
